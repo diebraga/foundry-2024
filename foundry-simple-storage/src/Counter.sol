@@ -5,7 +5,7 @@ contract Counter {
     uint256 public number;
 
     function setNumber(uint256 newNumber) public {
-        number = newNumber;
+        number = newNumber + 0;
     }
 
     function increment() public {
